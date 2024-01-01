@@ -1,0 +1,182 @@
+{
+    "name": "INPUTS",
+    "maps": [
+        {
+            "name": "Typewriter",
+            "id": "2c69c1b3-3be0-451a-a26c-231c13083043",
+            "actions": [
+                {
+                    "name": "stop",
+                    "type": "Button",
+                    "id": "ec1df73c-5b4d-4baa-be31-ee5715bbeefe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4df9a4a3-2b67-4151-beb1-9de02b5bc04f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "stop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "CameraControls",
+            "id": "31e099c7-e443-40f4-92f7-f9bd08cd1456",
+            "actions": [
+                {
+                    "name": "zoom",
+                    "type": "PassThrough",
+                    "id": "6aa3881c-61cc-430f-9e61-5508772aafab",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "relocate",
+                    "type": "Button",
+                    "id": "76b75531-dfff-4ce7-93d1-16d9118eca4f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MaxFocus",
+                    "type": "Button",
+                    "id": "6d4c5dca-29a9-47f2-85e8-98a93665db61",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "70bc5789-087e-4bd4-abfd-5da102006ae1",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8c380303-a842-484c-931f-521c9d7f9646",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "relocate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "91679ad9-413c-46ac-aeba-b30b228ebc32",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "MultiTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MaxFocus",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "TowerManipulation",
+            "id": "3261e23a-0169-4e3b-a48d-db570c347c2e",
+            "actions": [
+                {
+                    "name": "SelectDirectionForPennyRoller",
+                    "type": "PassThrough",
+                    "id": "7230f7d3-4825-45f4-8b76-a2bf1230eef9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "GenericClickCheck",
+                    "type": "Button",
+                    "id": "9f309521-ffe0-45a6-b56b-96462388914d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0afcdd75-9c04-404c-8ff9-5de882bbec6b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectDirectionForPennyRoller",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7af8e0d0-d291-49fe-b0a6-bbe7fa257e0d",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GenericClickCheck",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "DialogueControls",
+            "id": "851a883a-9fac-4384-9dbd-66031aa6ae07",
+            "actions": [
+                {
+                    "name": "Next Line",
+                    "type": "Button",
+                    "id": "6021d131-8654-4100-8440-a449e37a9774",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b0a98d72-c1e5-4da9-a20f-f96162e5cfe7",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Line",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0a704309-412e-4792-b52f-2f6c9fbf4c69",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Line",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
